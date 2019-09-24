@@ -1,0 +1,163 @@
+// https://www.json-generator.com/#
+[
+  '{{repeat(20)}}',
+  {
+    id: '{{objectId()}}',
+    nombre: '{{firstName()}} {{surname()}}',
+    edad: '{{integer(20,40)}}',
+    pais: '{{country()}}',
+    correo: '{{email()}}'
+
+  }
+]
+
+// Insertar valores en DB phpmyadmin
+INSERT INTO `usuarios` (`ID`, `nombre`, `edad`, `pais`, `correo`) VALUES (NULL, 'Miguel', '30', 'España', 'mcorreo@correo.com');
+
+INSERT INTO `usuarios` (`ID`, `nombre`, `edad`, `pais`, `correo`) VALUES (NULL, 'Mike', '31', 'Alemania', 'makcorreo@correo.com');
+
+
+// http://www.json-generator.com/api/json/get/cgvCYUzObm?indent=2
+
+[
+    {
+      "edad": 22, 
+      "nombre": "<ReferenceError: firstname is not defined> Hopper", 
+      "id": "5d86e0adcabbf6cb1c85200c", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Senegal"
+    }, 
+    {
+      "edad": 27, 
+      "nombre": "<ReferenceError: firstname is not defined> Scott", 
+      "id": "5d86e0ade315a8a3937afec4", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Nauru"
+    }, 
+    {
+      "edad": 26, 
+      "nombre": "<ReferenceError: firstname is not defined> Barker", 
+      "id": "5d86e0ad328eab77de14a48d", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Eritrea"
+    }, 
+    {
+      "edad": 35, 
+      "nombre": "<ReferenceError: firstname is not defined> Howell", 
+      "id": "5d86e0ad8e75f07d6eaf4f1f", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Libya"
+    }, 
+    {
+      "edad": 26, 
+      "nombre": "<ReferenceError: firstname is not defined> Sims", 
+      "id": "5d86e0ad81a23ac4da48d530", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Faroe Islands"
+    }, 
+    {
+      "edad": 36, 
+      "nombre": "<ReferenceError: firstname is not defined> Chaney", 
+      "id": "5d86e0ad2daf91a369828111", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Jordan"
+    }, 
+    {
+      "edad": 37, 
+      "nombre": "<ReferenceError: firstname is not defined> Espinoza", 
+      "id": "5d86e0ad18bb87a01a7e31b8", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Heard and McDonald Islands"
+    }, 
+    {
+      "edad": 24, 
+      "nombre": "<ReferenceError: firstname is not defined> Buck", 
+      "id": "5d86e0ad7cab3fa955a25bde", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Viet Nam"
+    }, 
+    {
+      "edad": 26, 
+      "nombre": "<ReferenceError: firstname is not defined> Hunter", 
+      "id": "5d86e0ad7c497ca284b9a5c8", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Qatar"
+    }, 
+    {
+      "edad": 21, 
+      "nombre": "<ReferenceError: firstname is not defined> Rosa", 
+      "id": "5d86e0ad64dc1a4116e501e2", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Nepal"
+    }, 
+    {
+      "edad": 39, 
+      "nombre": "<ReferenceError: firstname is not defined> Graves", 
+      "id": "5d86e0adf9b246df63ce9516", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Turkey"
+    }, 
+    {
+      "edad": 30, 
+      "nombre": "<ReferenceError: firstname is not defined> Aguirre", 
+      "id": "5d86e0ad9155722a71f61217", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Thailand"
+    }, 
+    {
+      "edad": 28, 
+      "nombre": "<ReferenceError: firstname is not defined> Jensen", 
+      "id": "5d86e0ad8dbdb8bd32a4676d", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Romania"
+    }, 
+    {
+      "edad": 21, 
+      "nombre": "<ReferenceError: firstname is not defined> Kelley", 
+      "id": "5d86e0ad1298bd1655db2952", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Niue"
+    }, 
+    {
+      "edad": 24, 
+      "nombre": "<ReferenceError: firstname is not defined> Burch", 
+      "id": "5d86e0ad68ce45d65f7a7093", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Mozambique"
+    }, 
+    {
+      "edad": 28, 
+      "nombre": "<ReferenceError: firstname is not defined> Morgan", 
+      "id": "5d86e0ad1ac31a328895d76f", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "United Kingdom"
+    }, 
+    {
+      "edad": 29, 
+      "nombre": "<ReferenceError: firstname is not defined> Sampson", 
+      "id": "5d86e0ad692b14a5218ad39b", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Tokelau"
+    }, 
+    {
+      "edad": 34, 
+      "nombre": "<ReferenceError: firstname is not defined> Nguyen", 
+      "id": "5d86e0ad10d2039b902e28e7", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Tajikistan"
+    }, 
+    {
+      "edad": 35, 
+      "nombre": "<ReferenceError: firstname is not defined> Potts", 
+      "id": "5d86e0adc606738e6f903883", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Sierra Leone"
+    }, 
+    {
+      "edad": 30, 
+      "nombre": "<ReferenceError: firstname is not defined> Blevins", 
+      "id": "5d86e0ad40c6fb47118ab0ea", 
+      "correo": "<SyntaxError: unexpected token: ')'>", 
+      "pais": "Hong Kong"
+    }
+  ]
